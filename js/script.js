@@ -9,7 +9,7 @@ buttonAdd.addEventListener('click', () => {
         alert('Insira uma task');
         return;
     } else if (createdTasks.includes(newTask.value)) {
-        alert('Essa task já exite');
+        alert('Essa task já existe');
         newTask.value = '';
         return;
     }
